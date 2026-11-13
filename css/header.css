@@ -1,45 +1,55 @@
-header{
-    padding: 30px 0;
+header {
+  padding: 30px 0;
 }
-.logo img{
-    border-radius: 50%;
+.logo img {
+  border-radius: 50%;
 }
-.links{
-    display: flex;
-    gap: 30px;
+.links {
+  display: flex;
+  gap: 30px;
 }
-.links a{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 100%;
-    text-decoration: none;
-    color: black;
-
+.links a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  text-decoration: none;
+  color: black;
 }
-.links a:hover{
-    color: #ff6464;
-    transform: translateY(-6px);
-    transition: 0.3s;
+.links a:hover {
+  color: #ff6464;
+  transform: translateY(-6px);
+  transition: 0.3s;
 }
-.bars{
-    display: none;
+.bars {
+  display: none;
 }
-.RestNav{
-    width: 60%;
-    height: 100vh;
-    background: #ff6464;
-    color: #ffffff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 100%;
-    text-decoration: none;
+.RestNav {
+  width: 60%;
+  height: 100vh;
+  background: #ff6464;
+  color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  text-decoration: none;
+  padding: 40px;
+  transform: translateX(-110%);
+  transition: 0.3s ease-in;
+}
+.RestNav.active{
+    transform: translateX(0%);
+}
+.resNav {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  text-decoration: none;
+  color: white;
 }

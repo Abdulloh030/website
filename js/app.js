@@ -1,5 +1,7 @@
 let bars = document.querySelector(".bars")
 
+let restNav = document.querySelector(".RestNav")
+
 bars.addEventListener("click", ()=>{
-    alert("Salom")
+    restNav.classList.toggle('active')
 })
