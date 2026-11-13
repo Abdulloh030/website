@@ -1,0 +1,8 @@
+@media (max-width: 678px) {
+  .links {
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+}
