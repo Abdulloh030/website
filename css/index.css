@@ -1,0 +1,47 @@
+.hero{
+    padding: 80px 0;
+}
+.hero-left{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+.hero-left h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243d;
+}
+.hero-left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #21243d;
+}
+.hero-left button{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #fff;
+    background: #ff6464;
+    border: 2px solid #ff6464;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 12px 24px;
+    transition: .3s;
+}
+.hero-left button:hover{
+    background: transparent;
+    color: #ff6464;
+}
+.hero-right{
+    background-color: #edf7fa;
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+}
+.hero-right img{
+    transform: translate(8px, -8px);
+}
