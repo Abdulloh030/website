@@ -5,4 +5,16 @@
   .bars {
     display: block;
   }
+  .container{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero{
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-left button{
+    margin: auto;
+  } 
 }
