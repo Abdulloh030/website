@@ -5,26 +5,34 @@
   .bars {
     display: block;
   }
-  .container{
-    display: flex;
+  .mediaReverse {
     flex-direction: column-reverse;
-
   }
-  .hero{
+  .media{
+    flex-direction: column;
+  }
+  .hero {
     text-align: center;
     align-items: center;
   }
 
-  .hero-left button{
+  .hero-left button {
     margin: auto;
   }
-  .container h1{
+  .container h1 {
     margin: auto;
+  }
+
+  .recent-titels{
+    justify-content: center !important;
+  }
+  .recent-titels a {
+    display: none;
   }
 }
 
 @media (min-width: 678px) {
-  .RestNav.active{
+  .RestNav.active {
     transform: translateX(-110%);
   }
 }
