@@ -1,101 +1,109 @@
 .hero {
-  padding: 80px 0;
+    padding: 80px 0;
 }
+
 .hero-left {
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  align-items: flex-start;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
 }
+
 .hero-left h1 {
-  font-weight: 700;
-  font-size: 44px;
-  line-height: 60px;
-  color: #21243d;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243d;
 }
+
 .hero-left p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  color: #21243d;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #21243d;
 }
+
 .hero-left button {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 100%;
-  color: #fff;
-  background: #ff6464;
-  border: 2px solid #ff6464;
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 12px 24px;
-  transition: 0.3s;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #fff;
+    background: #ff6464;
+    border: 2px solid #ff6464;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 12px 24px;
+    transition: 0.3s;
 }
+
 .hero-left button:hover {
-  background: transparent;
-  color: #ff6464;
+    background: transparent;
+    color: #ff6464;
 }
+
 .hero-right {
-  background-color: #edf7fa;
-  width: 243px;
-  height: 243px;
-  border-radius: 50%;
+    background-color: #edf7fa;
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
 }
+
 .hero-right img {
-  transform: translate(8px, -8px);
+    transform: translate(8px, -8px);
 }
 
 /* Recent posts == section */
 
 .recents {
-  padding: 32px 0;
-  background-color: #edf7fa;
+    padding: 32px 0;
+    background-color: #edf7fa;
 }
 
 .recent-titels span {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 100%;
-  color: #21243d;
-  font-weight: 400;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    color: #21243d;
+    font-weight: 400;
 }
 
 .recent-titels a {
-  color: #00a8cc;
-  font-size: 16px;
+    color: #00a8cc;
+    font-size: 16px;
 }
+
 .recent-cards {
-  margin-top: 24px;
-  gap: 20px;
-  justify-content: center;
+    margin-top: 24px;
+    gap: 20px;
+    justify-content: center;
 }
 
 .recent-card {
-  background-color: white;
-  padding: 20px;
-}
-.recent-card h1 {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 38px;
-  color: #21243d;
+    background-color: white;
+    padding: 20px;
 }
 
-h1.date{
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #21243d;
-  margin: 10px 0 !important;
+.recent-card h1 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243d;
+}
+
+h1.date {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #21243d;
+    margin: 10px 0 !important;
 }
 
 .recent-card p {
-    line-height: 1.5;.recent-card a{
-  font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #00a8cc;
-text-decoration: none;
-}
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00a8cc;
+    text-decoration: none;
 }
