@@ -8,6 +8,7 @@
   .container{
     display: flex;
     flex-direction: column-reverse;
+
   }
   .hero{
     text-align: center;
@@ -16,5 +17,14 @@
 
   .hero-left button{
     margin: auto;
-  } 
+  }
+  .container h1{
+    margin: auto;
+  }
+}
+
+@media (min-width: 678px) {
+  .RestNav.active{
+    transform: translateX(-110%);
+  }
 }

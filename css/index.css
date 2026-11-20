@@ -45,3 +45,23 @@
 .hero-right img{
     transform: translate(8px, -8px);
 }
+
+/* Recent posts == section */
+
+.recents {
+    padding: 32px 0;
+    background-color: #EDF7FA;
+}
+
+.recent-titels span{font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    color: #21243d;
+    font-weight: 400;
+}
+
+.recent-titels a {
+    color: #00A8CC;
+    font-size: 16px;
+}
+.

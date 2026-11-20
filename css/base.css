@@ -1,4 +1,5 @@
 @import url('./fonts.css');
+@import url('.main.css');
 
 @import url('./base.css');
 @import url('./header.css');
@@ -14,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
     font-family: "Heebo", sans-serif; 

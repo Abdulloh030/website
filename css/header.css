@@ -24,10 +24,10 @@ header {
   display: none;
 }
 .RestNav {
-  width: 60%;
-  height: 100vh;
-  background: #ff6464;
-  color: #ffffff;
+  width: 100px;
+  height: 100px;
+  background: white;
+  color: black;
   position: fixed;
   top: 0;
   left: 0;
@@ -35,21 +35,18 @@ header {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 100%;
-  text-decoration: none;
   padding: 40px;
   transform: translateX(-110%);
   transition: 0.3s ease-in;
 }
-.RestNav.active{
-    transform: translateX(0%);
+.RestNav.active {
+  /* display: flex; */
+  transform: translateX(0%);
 }
-.resNav {
+.RestNav a {
   font-weight: 500;
   font-size: 20px;
   line-height: 100%;
   text-decoration: none;
-  color: white;
+  color: rgb(55, 10, 10);
 }

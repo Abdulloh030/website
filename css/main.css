@@ -5,6 +5,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Heebo", sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
 /* .container {
