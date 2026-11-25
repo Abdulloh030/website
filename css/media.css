@@ -29,6 +29,16 @@
   .recent-titels a {
     display: none;
   }
+
+  .future-card {
+    flex-direction: column;
+    width: 344px;
+  }
+
+  .future-card .f-c-i {
+    width: 100%;
+  }
+
 }
 
 @media (min-width: 678px) {
