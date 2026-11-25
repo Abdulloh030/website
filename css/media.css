@@ -32,13 +32,16 @@
 
   .future-card {
     flex-direction: column;
-    width: 344px;
+    min-width: 344px;
   }
 
   .future-card .f-c-i {
     width: 100%;
   }
 
+  #hidden {
+    display: none;
+  }
 }
 
 @media (min-width: 678px) {
